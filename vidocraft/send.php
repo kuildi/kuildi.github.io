@@ -26,7 +26,7 @@
 	    return false;
 	}
 	if (checkEmail($email)) {
-		if (mail("example@mail.ru", "Обращение с сайта", "ФИО:".$fio.". E-mail: ".$email , "Обращение:".$question, "From: example2@mail.ru \r\n")) {
+		if (mail("kuildi@yandex.ru", "Обращение с сайта", "ФИО:".$fio.". E-mail: ".$email , "Обращение:".$question, "From: example2@mail.ru \r\n")) {
 			echo "сообщение успешно отправлено"; 
 		} else { 
 	    	echo "при отправке сообщения возникли ошибки";
