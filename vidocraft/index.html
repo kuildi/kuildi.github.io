@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body background="img/bg.jpg">
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper grey darken-4 z-depth-4">
+      <div class="container">
+        <a href="#" class="brand-logo"><img src="img/logo.png" class="responsive-img" style="max-height: 50px; margin-top: 10px;"></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#catalog">Каталог</a></li>
+          <li><a href="#qa">Задать вопрос</a></li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+    <div class="section center" style="height: 300px;">
+      <img src="img/logo2.png" class="responsive-img" style="width: 300px; margin-top: 30px;">
+    </div>
+
+    <div class="container center">
+    <div class="row center">
+      <h4 class="white-text">Наши преимущества</h4>
+    </div>
+      <ul class="collapsible popout white-text" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header grey darken-3"><i class="material-icons">reorder</i>Первое преимущество</div>
+          <div class="collapsible-body grey darken-4"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore doloribus odio quod officia voluptate architecto expedita delectus facilis, reprehenderit, quos numquam, ea, animi nihil laboriosam. Excepturi soluta est repellat perspiciatis.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header grey darken-3"><i class="material-icons">reorder</i>Второе преимущество</div>
+          <div class="collapsible-body grey darken-4"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda qui recusandae doloremque quisquam nam tempora explicabo vero laboriosam et, fugit delectus maiores architecto deserunt vitae facilis a. Minima optio, temporibus.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header grey darken-3"><i class="material-icons">reorder</i>Третье преимущество</div>
+          <div class="collapsible-body grey darken-4"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis deleniti eos fuga minus aliquam quas. Laudantium, quidem. Distinctio accusamus at, dolorum sed sint aperiam, assumenda in modi atque, minima expedita.</span></div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container" style="margin-top: 50px;">
+    <div class="row center" id="catalog">
+      <h4 class="white-text">Каталог</h4>
+    </div>
+      <div class="row">
+        <div class="col s12">
+          <ul class="tabs grey darken-3">
+            <li class="tab col s3 "><a class="active white-text" href="#test1">Одинарные</a></li>
+            <li class="tab col s3 "><a class="white-text" href="#test2">Двойники</a></li>
+            <li class="tab col s3 "><a class="white-text" href="#test3">Тройники</a></li>
+            <li class="tab col s3 "><a class="white-text" href="#test4">Джиг</a></li>
+          </ul>
+        </div>
+        <div id="test1" class="col s12">
+          <img src="img/single.jpg" class="responsive-img" style="width: 100%;">
+          <img src="img/single2.jpg" class="responsive-img" style="width: 100%;">
+        </div>
+        <div id="test2" class="col s12">
+          <img src="img/double.jpg" class="responsive-img" style="width: 100%;">
+          <img src="img/double2.jpg" class="responsive-img" style="width: 100%;">
+          <img src="img/double3.jpg" class="responsive-img" style="width: 100%;">
+          <img src="img/double4.jpg" class="responsive-img" style="width: 100%;">
+        </div>
+        <div id="test3" class="col s12">
+          <img src="img/treble.jpg" class="responsive-img" style="width: 100%;">
+          <img src="img/treble2.jpg" class="responsive-img" style="width: 100%;">
+          <img src="img/treble3.jpg" class="responsive-img" style="width: 100%;">
+          <img src="img/treble4.jpg" class="responsive-img" style="width: 100%;">
+        </div>
+        <div id="test4" class="col s12">
+          <img src="img/djig.jpg" class="responsive-img" style="width: 100%;">
+          <img src="img/djig2.jpg" class="responsive-img" style="width: 100%;">
+          <img src="img/djig3.jpg" class="responsive-img" style="width: 100%;">
+          <img src="img/djig4.jpg" class="responsive-img" style="width: 100%;">
+        </div>
+      </div>
+    </div>
+
+    <div class="row center" id="qa">
+      <a class="waves-effect waves-light btn grey darken-3" href="Vido-Craft.pdf" download>Скачать каталог</a>
+    </div>
+
+    <div class="container">
+    <div class="row center">
+      <h4 class="white-text">Вы можете задать нам вопрос или обратиться с предложением</h4>
+    </div>
+        <div class="row">
+        <form class="col s12" action="send.php" method="post">
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix white-text">account_circle</i>
+              <input id="first_name" name="first_name" type="text" class="white-text" style="border-color: white;">
+              <label for="first_name" class="white-text">Ваши фамилия имя отчество</label>
+            </div>
+          </div>
+         
+          
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix white-text">mail</i>
+              <input id="email" name="email" type="email" class="white-text" style="border-color: white;">
+              <label for="email" class="white-text">Email</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="textarea1" name="question" class="materialize-textarea white-text" style="border-color: white;"></textarea>
+              <label for="textarea1" class="white-text">Ваш вопрос или предожение</label>
+            </div>
+          </div>
+
+          <div class="row center">
+            <input class="btn waves-light waves-effect grey darken-3" type="submit" value="Отправить">
+          </div>
+
+        </form>
+      </div>
+    </div>
+    <footer class="page-footer grey darken-4">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Дополнительная информация</h5>
+                <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere sint odit illum nesciunt molestias magni vero quod tempore quae debitis repudiandae obcaecati perferendis error dolorem, expedita blanditiis iure cumque exercitationem!</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Соц сети</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Copyright Vido Craft
+            </div>
+          </div>
+        </footer>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('.collapsible').collapsible();
+      });
+
+      $(document).ready(function(){
+        $('ul.tabs').tabs();
+      });
+    </script>
+  </body>
+</html>
