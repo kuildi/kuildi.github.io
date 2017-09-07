@@ -27,12 +27,12 @@
 	}
 	if (checkEmail($email)) {
 		if (mail("kuildi@yandex.ru", "Обращение с сайта", "ФИО:".$fio.". E-mail: ".$email , "Обращение:".$question, "From: example2@mail.ru \r\n")) {
-			echo "сообщение успешно отправлено"; 
+			echo "<script>alert(\"Сообщение успешно отправлено.\");</script>"; 
 		} else { 
-	    	echo "при отправке сообщения возникли ошибки";
+	    	echo ""<script>alert(\"При отправке сообщения возникла ошибка.\");</script>"";
 		}
 	} else {
-		echo "Некорректный E-mail";
+		echo "<script>alert(\"Некорректный Email.\");</script>";
 	}
 	
 ?>
