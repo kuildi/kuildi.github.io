@@ -26,13 +26,16 @@
 	    return false;
 	}
 	if (checkEmail($email)) {
-		if (mail("example@mail.ru", "Обращение с сайта", "ФИО:".$fio.". E-mail: ".$email , "Обращение:".$question, "From: example2@mail.ru \r\n")) {
-			echo "сообщение успешно отправлено"; 
+		if (mail("mymail001@mail.ru", "Обращение с сайта", "ФИО:".$fio.". E-mail: ".$email , "Обращение:".$question, "From: example2@mail.ru \r\n")) {
+			echo "<script>alert(\"Сообщение успешно отправлено.\");</script>";
+			echo "<script>window.location.href = \"index.php#qa\";</script>";
 		} else { 
-	    	echo "при отправке сообщения возникли ошибки";
+	    	echo "<script>alert(\"При отправке сообщения возникла ошибка.\");</script>";
+			echo "<script>window.location.href = \"index.php#qa\";</script>";
 		}
 	} else {
-		echo "Некорректный E-mail";
+		echo "<script>alert(\"Некорректный E-mail.\");</script>";
+		echo "<script>window.location.href = \"index.php#qa\";</script>";
 	}
 	
 ?>
