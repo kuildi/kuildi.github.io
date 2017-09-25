@@ -1,0 +1,332 @@
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="ваши-печати.рф" resolutions="1x" timestamp="1458653721214">
+  <folder name="css">
+    <file name="site_global.css" crc="411681574"/>
+    <file name="thanks.css" crc="327918288" ref="thanks"/>
+    <file name="iefonts_thanks.css" crc="171145889" ref="thanks"/>
+    <file name="index.css" crc="253811958" ref="index"/>
+    <file name="iefonts_index.css" crc="4290521356" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="484278746" ref="index:thanks"/>
+    <file name="museutils.js" crc="531812214" ref="index:thanks"/>
+    <file name="whatinput.js" crc="84559013" ref="index:thanks"/>
+    <file name="pie.js" crc="3827607177" ref="index:thanks"/>
+    <file name="webpro.js" crc="4156477058" ref="index"/>
+    <file name="musewpdisclosure.js" crc="3974494556" ref="index"/>
+    <file name="musewpslideshow.js" crc="4058618124" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="3810062583" ref="index"/>
+    <file name="touchswipe.js" crc="4174436727" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="120190942" ref="index"/>
+    <file name="jquery.watch.js" crc="3866665977" ref="index:thanks"/>
+    <file name="form_check.php" crc="373582055" ref="index"/>
+    <file name="form_throttle.php" crc="211381018" ref="index"/>
+    <file name="form_process.php" crc="6354943" ref="index"/>
+    <file name="form-u355.php" crc="407520310" ref="index"/>
+    <file name="form-u19231.php" crc="394601649" ref="index"/>
+    <file name="form-u19331.php" crc="3897911331" ref="index"/>
+    <file name="form-u19363.php" crc="258379353" ref="index"/>
+    <file name="form-u19262.php" crc="3942398976" ref="index"/>
+    <file name="form-u19122.php" crc="115998873" ref="index"/>
+    <file name="form-u19173.php" crc="367491055" ref="index"/>
+    <file name="form-u19829.php" crc="12733075" ref="index"/>
+    <file name="form-u19972.php" crc="3776513977" ref="index"/>
+    <file name="form-u19768.php" crc="4292322077" ref="index"/>
+    <file name="form-u19926.php" crc="3802110944" ref="index"/>
+    <file name="form-u19715.php" crc="194114857" ref="index"/>
+    <file name="form-u19867.php" crc="4243322244" ref="index"/>
+    <file name="form-u20433.php" crc="4235191330" ref="index"/>
+    <file name="form-u20578.php" crc="3930029488" ref="index"/>
+    <file name="form-u20374.php" crc="4117295561" ref="index"/>
+    <file name="form-u20527.php" crc="4033304304" ref="index"/>
+    <file name="form-u20336.php" crc="77719927" ref="index"/>
+    <file name="form-u20481.php" crc="287969969" ref="index"/>
+    <file name="form-u21442.php" crc="4036332581" ref="index"/>
+    <file name="form-u21483.php" crc="4149824281" ref="index"/>
+    <file name="form-u21530.php" crc="520038855" ref="index"/>
+    <file name="form-u21577.php" crc="4170950392" ref="index"/>
+    <file name="form-u21638.php" crc="4127713494" ref="index"/>
+    <file name="form-u21031.php" crc="61678418" ref="index"/>
+    <file name="form-u20993.php" crc="272138898" ref="index"/>
+    <file name="form-u21079.php" crc="3988424977" ref="index"/>
+    <file name="form-u21116.php" crc="338493534" ref="index"/>
+    <file name="form-u20942.php" crc="3977899209" ref="index"/>
+    <file name="form-u21937.php" crc="87512621" ref="index"/>
+    <file name="form-u21971.php" crc="4162527918" ref="index"/>
+    <file name="form-u22002.php" crc="135429555" ref="index"/>
+    <file name="form-u22034.php" crc="226450804" ref="index"/>
+    <file name="form-u22076.php" crc="216221187" ref="index"/>
+    <file name="form-u22675.php" crc="4106914440" ref="index"/>
+    <file name="form-u22782.php" crc="4162821819" ref="index"/>
+    <file name="form-u22715.php" crc="243638556" ref="index"/>
+    <file name="form-u22815.php" crc="3765390580" ref="index"/>
+    <file name="form-u22742.php" crc="369891841" ref="index"/>
+    <file name="form-u22848.php" crc="3982155079" ref="index"/>
+    <file name="form-u443.php" crc="250478306" ref="index"/>
+    <file name="form-u23447.php" crc="445137622" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="изготовление-печатей-и-штампов-в-ростове-на-дону-favicon.ico" crc="32901259" ref="index"/>
+    <file name="yuhvjmjoz3i.jpg" crc="3958821255" seo="true" ref="index"/>
+    <file name="g3mgsniddbs.jpg" crc="23996802" seo="true" ref="index"/>
+    <file name="l9jhvh4ocl0.jpg" crc="31148846" seo="true" ref="index"/>
+    <file name="fotolia_42694793_subscription_xxl1.jpg" crc="4283642053" ref="index"/>
+    <file name="downarrows10.png" crc="441260425" seo="true" ref="index"/>
+    <file name="u356-17.png" crc="3930555683" ref="index"/>
+    <file name="u356-17-r.png" crc="68745631" ref="index"/>
+    <file name="u356-17-m.png" crc="4129690456" ref="index"/>
+    <file name="u356-17-fs.png" crc="4125726441" ref="index"/>
+    <file name="phone403-u351.png" crc="4060458259" ref="index"/>
+    <file name="silhouette121-u353.png" crc="4090764488" ref="index"/>
+    <file name="hand77.png" crc="84106530" seo="true" ref="index"/>
+    <file name="img_4591.png" crc="139680788" seo="true" ref="index"/>
+    <file name="vk3-u27018.png" crc="4210002529" ref="index"/>
+    <file name="ekonom.jpg" crc="168916432" seo="true" ref="index"/>
+    <file name="u19233-17.png" crc="4018819581" ref="index"/>
+    <file name="u19233-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u19233-17-m.png" crc="283126417" ref="index"/>
+    <file name="u19233-17-fs.png" crc="78287051" ref="index"/>
+    <file name="usilen.jpg" crc="237922387" seo="true" ref="index"/>
+    <file name="u19342-17.png" crc="4018819581" ref="index"/>
+    <file name="u19342-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u19342-17-m.png" crc="283126417" ref="index"/>
+    <file name="u19342-17-fs.png" crc="78287051" ref="index"/>
+    <file name="optimal.jpg" crc="4021149250" seo="true" ref="index"/>
+    <file name="u19371-17.png" crc="4018819581" ref="index"/>
+    <file name="u19371-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u19371-17-m.png" crc="283126417" ref="index"/>
+    <file name="u19371-17-fs.png" crc="78287051" ref="index"/>
+    <file name="etalon.jpg" crc="475699476" seo="true" ref="index"/>
+    <file name="u19274-17.png" crc="4018819581" ref="index"/>
+    <file name="u19274-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u19274-17-m.png" crc="283126417" ref="index"/>
+    <file name="u19274-17-fs.png" crc="78287051" ref="index"/>
+    <file name="luks.jpg" crc="4005674717" seo="true" ref="index"/>
+    <file name="u19125-17.png" crc="4018819581" ref="index"/>
+    <file name="u19125-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u19125-17-m.png" crc="283126417" ref="index"/>
+    <file name="u19125-17-fs.png" crc="78287051" ref="index"/>
+    <file name="t34.jpg" crc="208023846" seo="true" ref="index"/>
+    <file name="u19176-17.png" crc="4018819581" ref="index"/>
+    <file name="u19176-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u19176-17-m.png" crc="283126417" ref="index"/>
+    <file name="u19176-17-fs.png" crc="78287051" ref="index"/>
+    <file name="komfort.jpg" crc="4289910624" seo="true" ref="index"/>
+    <file name="u19831-17.png" crc="4018819581" ref="index"/>
+    <file name="u19831-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u19831-17-m.png" crc="283126417" ref="index"/>
+    <file name="u19831-17-fs.png" crc="78287051" ref="index"/>
+    <file name="maus.jpg" crc="4239478485" seo="true" ref="index"/>
+    <file name="u19974-17.png" crc="4018819581" ref="index"/>
+    <file name="u19974-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u19974-17-m.png" crc="283126417" ref="index"/>
+    <file name="u19974-17-fs.png" crc="78287051" ref="index"/>
+    <file name="komfortcep.jpg" crc="4133072524" seo="true" ref="index"/>
+    <file name="u19775-17.png" crc="4018819581" ref="index"/>
+    <file name="u19775-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u19775-17-m.png" crc="283126417" ref="index"/>
+    <file name="u19775-17-fs.png" crc="78287051" ref="index"/>
+    <file name="flesh.jpg" crc="309989036" seo="true" ref="index"/>
+    <file name="u19934-17.png" crc="4018819581" ref="index"/>
+    <file name="u19934-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u19934-17-m.png" crc="283126417" ref="index"/>
+    <file name="u19934-17-fs.png" crc="78287051" ref="index"/>
+    <file name="ekonommaus.jpg" crc="3918728180" seo="true" ref="index"/>
+    <file name="u19723-17.png" crc="4018819581" ref="index"/>
+    <file name="u19723-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u19723-17-m.png" crc="283126417" ref="index"/>
+    <file name="u19723-17-fs.png" crc="78287051" ref="index"/>
+    <file name="ekskluziv.jpg" crc="3991470730" seo="true" ref="index"/>
+    <file name="u19869-17.png" crc="4018819581" ref="index"/>
+    <file name="u19869-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u19869-17-m.png" crc="283126417" ref="index"/>
+    <file name="u19869-17-fs.png" crc="78287051" ref="index"/>
+    <file name="gerb.jpg" crc="444962766" seo="true" ref="index"/>
+    <file name="u20440-17.png" crc="4018819581" ref="index"/>
+    <file name="u20440-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u20440-17-m.png" crc="283126417" ref="index"/>
+    <file name="u20440-17-fs.png" crc="78287051" ref="index"/>
+    <file name="silverpeshka.jpg" crc="4197198956" seo="true" ref="index"/>
+    <file name="u20584-17.png" crc="4018819581" ref="index"/>
+    <file name="u20584-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u20584-17-m.png" crc="283126417" ref="index"/>
+    <file name="u20584-17-fs.png" crc="78287051" ref="index"/>
+    <file name="ploskaya.jpg" crc="144690403" seo="true" ref="index"/>
+    <file name="u20376-17.png" crc="4018819581" ref="index"/>
+    <file name="u20376-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u20376-17-m.png" crc="283126417" ref="index"/>
+    <file name="u20376-17-fs.png" crc="78287051" ref="index"/>
+    <file name="kristall.png" crc="523899266" seo="true" ref="index"/>
+    <file name="u20534-17.png" crc="4018819581" ref="index"/>
+    <file name="u20534-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u20534-17-m.png" crc="283126417" ref="index"/>
+    <file name="u20534-17-fs.png" crc="78287051" ref="index"/>
+    <file name="elit.jpg" crc="3793690512" seo="true" ref="index"/>
+    <file name="u20339-17.png" crc="4018819581" ref="index"/>
+    <file name="u20339-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u20339-17-m.png" crc="283126417" ref="index"/>
+    <file name="u20339-17-fs.png" crc="78287051" ref="index"/>
+    <file name="aristokrat.jpg" crc="287811140" seo="true" ref="index"/>
+    <file name="u20491-17.png" crc="4018819581" ref="index"/>
+    <file name="u20491-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u20491-17-m.png" crc="283126417" ref="index"/>
+    <file name="u20491-17-fs.png" crc="78287051" ref="index"/>
+    <file name="u21448-17.png" crc="4018819581" ref="index"/>
+    <file name="u21448-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u21448-17-m.png" crc="283126417" ref="index"/>
+    <file name="u21448-17-fs.png" crc="78287051" ref="index"/>
+    <file name="u21495-17.png" crc="4018819581" ref="index"/>
+    <file name="u21495-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u21495-17-m.png" crc="283126417" ref="index"/>
+    <file name="u21495-17-fs.png" crc="78287051" ref="index"/>
+    <file name="u21532-17.png" crc="4018819581" ref="index"/>
+    <file name="u21532-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u21532-17-m.png" crc="283126417" ref="index"/>
+    <file name="u21532-17-fs.png" crc="78287051" ref="index"/>
+    <file name="u21584-17.png" crc="4018819581" ref="index"/>
+    <file name="u21584-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u21584-17-m.png" crc="283126417" ref="index"/>
+    <file name="u21584-17-fs.png" crc="78287051" ref="index"/>
+    <file name="u21645-17.png" crc="4018819581" ref="index"/>
+    <file name="u21645-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u21645-17-m.png" crc="283126417" ref="index"/>
+    <file name="u21645-17-fs.png" crc="78287051" ref="index"/>
+    <file name="u21032-17.png" crc="4018819581" ref="index"/>
+    <file name="u21032-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u21032-17-m.png" crc="283126417" ref="index"/>
+    <file name="u21032-17-fs.png" crc="78287051" ref="index"/>
+    <file name="u21004-17.png" crc="4018819581" ref="index"/>
+    <file name="u21004-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u21004-17-m.png" crc="283126417" ref="index"/>
+    <file name="u21004-17-fs.png" crc="78287051" ref="index"/>
+    <file name="u21090-17.png" crc="4018819581" ref="index"/>
+    <file name="u21090-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u21090-17-m.png" crc="283126417" ref="index"/>
+    <file name="u21090-17-fs.png" crc="78287051" ref="index"/>
+    <file name="u21122-17.png" crc="4018819581" ref="index"/>
+    <file name="u21122-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u21122-17-m.png" crc="283126417" ref="index"/>
+    <file name="u21122-17-fs.png" crc="78287051" ref="index"/>
+    <file name="u20954-17.png" crc="4018819581" ref="index"/>
+    <file name="u20954-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u20954-17-m.png" crc="283126417" ref="index"/>
+    <file name="u20954-17-fs.png" crc="78287051" ref="index"/>
+    <file name="4116.jpg" crc="4140081706" seo="true" ref="index"/>
+    <file name="u21946-17.png" crc="4018819581" ref="index"/>
+    <file name="u21946-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u21946-17-m.png" crc="283126417" ref="index"/>
+    <file name="u21946-17-fs.png" crc="78287051" ref="index"/>
+    <file name="5010.jpg" crc="372249281" seo="true" ref="index"/>
+    <file name="u21982-17.png" crc="4018819581" ref="index"/>
+    <file name="u21982-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u21982-17-m.png" crc="283126417" ref="index"/>
+    <file name="u21982-17-fs.png" crc="78287051" ref="index"/>
+    <file name="6930.jpg" crc="256161293" seo="true" ref="index"/>
+    <file name="u22008-17.png" crc="4018819581" ref="index"/>
+    <file name="u22008-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u22008-17-m.png" crc="283126417" ref="index"/>
+    <file name="u22008-17-fs.png" crc="78287051" ref="index"/>
+    <file name="6040.jpg" crc="3893148149" seo="true" ref="index"/>
+    <file name="u22037-17.png" crc="4018819581" ref="index"/>
+    <file name="u22037-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u22037-17-m.png" crc="283126417" ref="index"/>
+    <file name="u22037-17-fs.png" crc="78287051" ref="index"/>
+    <file name="7538.jpg" crc="34186727" seo="true" ref="index"/>
+    <file name="u22084-17.png" crc="4018819581" ref="index"/>
+    <file name="u22084-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u22084-17-m.png" crc="283126417" ref="index"/>
+    <file name="u22084-17-fs.png" crc="78287051" ref="index"/>
+    <file name="samonabor.png" crc="3963365913" seo="true" ref="index"/>
+    <file name="u22676-17.png" crc="4018819581" ref="index"/>
+    <file name="u22676-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u22676-17-m.png" crc="283126417" ref="index"/>
+    <file name="u22676-17-fs.png" crc="78287051" ref="index"/>
+    <file name="ottisk.jpg" crc="352392790" seo="true" ref="index"/>
+    <file name="u22783-17.png" crc="4018819581" ref="index"/>
+    <file name="u22783-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u22783-17-m.png" crc="283126417" ref="index"/>
+    <file name="u22783-17-fs.png" crc="78287051" ref="index"/>
+    <file name="dater.jpg" crc="200455628" seo="true" ref="index"/>
+    <file name="u22726-17.png" crc="4018819581" ref="index"/>
+    <file name="u22726-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u22726-17-m.png" crc="283126417" ref="index"/>
+    <file name="u22726-17-fs.png" crc="78287051" ref="index"/>
+    <file name="chehol.jpg" crc="456779771" seo="true" ref="index"/>
+    <file name="u22825-17.png" crc="4018819581" ref="index"/>
+    <file name="u22825-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u22825-17-m.png" crc="283126417" ref="index"/>
+    <file name="u22825-17-fs.png" crc="78287051" ref="index"/>
+    <file name="kraska.jpg" crc="467390421" seo="true" ref="index"/>
+    <file name="u22754-17.png" crc="4018819581" ref="index"/>
+    <file name="u22754-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u22754-17-m.png" crc="283126417" ref="index"/>
+    <file name="u22754-17-fs.png" crc="78287051" ref="index"/>
+    <file name="feksimile.jpg" crc="426401460" seo="true" ref="index"/>
+    <file name="u22859-17.png" crc="4018819581" ref="index"/>
+    <file name="u22859-17-r.png" crc="4018819581" ref="index"/>
+    <file name="u22859-17-m.png" crc="283126417" ref="index"/>
+    <file name="u22859-17-fs.png" crc="78287051" ref="index"/>
+    <file name="bigstock-call-center-operator-at-work-46767889-300x200-crop-u405.jpg" crc="29062746" ref="index"/>
+    <file name="homekeyimg-crop-u411.jpg" crc="4099912221" ref="index"/>
+    <file name="mail.jpg" crc="507668477" seo="true" ref="index"/>
+    <file name="koerier2-330x327.jpg" crc="15644225" seo="true" ref="index"/>
+    <file name="grm_46042_hummer.jpg" crc="3943530202" seo="true" ref="index"/>
+    <file name="discount4.png" crc="3760374357" seo="true" ref="index"/>
+    <file name="u447-17.png" crc="4058975643" ref="index"/>
+    <file name="u447-17-r.png" crc="3857117523" ref="index"/>
+    <file name="u447-17-m.png" crc="4175378126" ref="index"/>
+    <file name="u447-17-fs.png" crc="496475763" ref="index"/>
+    <file name="silhouette121-u456.png" crc="4090764488" ref="index"/>
+    <file name="phone403-u441.png" crc="4060458259" ref="index"/>
+    <file name="25297-u22887.png" crc="83394745" ref="index"/>
+    <file name="sert-u22885.png" crc="4289307564" ref="index"/>
+    <file name="icon-onetomany-u22883.png" crc="4107465434" ref="index"/>
+    <file name="purse-512-u22982.png" crc="4138418091" ref="index"/>
+    <file name="website-design-xxl-u23015.png" crc="3913034789" ref="index"/>
+    <file name="wait_time_1891_1-u23009.png" crc="4199491873" ref="index"/>
+    <file name="businessman254-u22997.png" crc="4210737250" ref="index"/>
+    <file name="verification5-u23017.png" crc="4289991651" ref="index"/>
+    <file name="sticker3-u23013.png" crc="3855565698" ref="index"/>
+    <file name="logistics3-u23007.png" crc="447875352" ref="index"/>
+    <file name="justice4-u23005.png" crc="4260959533" ref="index"/>
+    <file name="call37-u22999.png" crc="4292066360" ref="index"/>
+    <file name="wax-u23019.png" crc="4133509069" ref="index"/>
+    <file name="printing17-u23011.png" crc="36778514" ref="index"/>
+    <file name="discount2-u23001.png" crc="465801786" ref="index"/>
+    <file name="international12-u23003.png" crc="232962135" ref="index"/>
+    <file name="45930-u23111.png" crc="4186024675" ref="index"/>
+    <file name="191.jpg" crc="3839416366" seo="true" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="210(2).jpg" crc="3978881713" seo="true" ref="index"/>
+    <file name="210.jpg" crc="3838955624" seo="true" ref="index"/>
+    <file name="191269x393.jpg" crc="335395980" seo="true" ref="index"/>
+    <file name="210(2)271x393.jpg" crc="4214278838" seo="true" ref="index"/>
+    <file name="210272x393.jpg" crc="4134115060" seo="true" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="1912.jpg" crc="453437128" seo="true" ref="index"/>
+    <file name="kruse density toner.jpg" crc="3921353773" seo="true" ref="index"/>
+    <file name="otkaz-polimer-i-rezina.jpg" crc="4049212905" seo="true" ref="index"/>
+    <file name="1912278x393.jpg" crc="242068140" seo="true" ref="index"/>
+    <file name="kruse density toner289x393.jpg" crc="4133862765" seo="true" ref="index"/>
+    <file name="otkaz-polimer-i-rezina266x406.jpg" crc="4109615349" seo="true" ref="index"/>
+    <file name="keyboard54-u23173-fr.png" crc="172517934" ref="index"/>
+    <file name="keyboard53-u23174-fr.png" crc="233851330" ref="index"/>
+    <file name="rp1rzowmgz0.jpg" crc="4202723733" seo="true" ref="index"/>
+    <file name="muzhik1-crop-u23312.jpg" crc="208288082" ref="index"/>
+    <file name="15-2207-crop-u23338.jpg" crc="4055853407" ref="index"/>
+    <file name="smiling-selfie-crop-u23366.jpg" crc="4129342933" ref="index"/>
+    <file name="ejmdgfih5te-crop-u23384.jpg" crc="14070691" ref="index"/>
+    <file name="u23453-17.png" crc="4058975643" ref="index"/>
+    <file name="u23453-17-r.png" crc="3857117523" ref="index"/>
+    <file name="u23453-17-m.png" crc="4175378126" ref="index"/>
+    <file name="u23453-17-fs.png" crc="496475763" ref="index"/>
+    <file name="silhouette121-u23445.png" crc="4090764488" ref="index"/>
+    <file name="phone403-u23443.png" crc="4060458259" ref="index"/>
+    <file name="logistics2-u23414.png" crc="4045679879" ref="index"/>
+    <file name="logistics3-u23416.png" crc="4094547781" ref="index"/>
+    <file name="delivery22-u23412.png" crc="301562495" ref="index"/>
+    <file name="vk3-u27140.png" crc="4210002529" ref="index"/>
+    <file name="home-iconsvg-u27097.png" crc="4062790953" ref="thanks"/>
+  </folder>
+  <file name="index.html" crc="482899378" seo="true" mt="1458653403975" redirect="true"/>
+  <file name="thanks.html" crc="368603476" seo="true" mt="1457874327260" redirect="true"/>
+</manifest>
