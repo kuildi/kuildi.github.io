@@ -1387,3 +1387,7 @@ ul.right {
 #main-nav.active #navigation {
   top: 19%;
 }
+
+#main-nav #slide_out_menu {
+  height: calc(100vh - 93px);
+}
