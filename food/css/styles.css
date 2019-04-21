@@ -1,0 +1,8 @@
+#welcome-screen {
+    position: relative;
+}
+.welcome-screen__text {
+    position:absolute;
+    top:40%;
+    left: 10%;
+}
