@@ -13,7 +13,9 @@
     <link rel="stylesheet" type="text/css"
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-    
+
+
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/material-kit.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -37,16 +39,14 @@
                 <ul class="navbar-nav ml-auto">
 
                     <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="" data-placement="bottom"
-                            href="https://twitter.com" target="_blank"
-                            data-original-title="Follow us on Twitter">
+                        <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://twitter.com"
+                            target="_blank" data-original-title="Follow us on Twitter">
                             <i class="fa fa-twitter"></i>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" rel="tooltip" title="" data-placement="bottom"
-                            href="https://www.facebook.com/" target="_blank"
-                            data-original-title="Like us on Facebook">
+                            href="https://www.facebook.com/" target="_blank" data-original-title="Like us on Facebook">
                             <i class="fa fa-facebook-square"></i>
                         </a>
                     </li>
@@ -63,14 +63,74 @@
         </div>
     </nav>
 
-    <section id="welcome-screen" data-parallax="true">
+    <section id="welcome-screen">
         <h1 class="welcome-screen__text">We are glade to meet you</h1>
         <video src="videos/pasta.mp4" width="100%;" autoplay muted preload="auto" loop poster="img/slide6.jpg"></video>
     </section>
 
+    <section id="menu">
+        <h1 class="text-center">Menu</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 wow fadeInLeft" data-wow-delay=".4s">
+                    <img src="images/menu_first.jpg" width="100%">
+                </div>
+                <div class="col-sm-7 menu__text">
+                    <h2 class="text-center">First</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quos expedita molestias
+                        aspernatur aperiam, voluptatibus deleniti ipsum nam ut, voluptatum reprehenderit amet? Dolorum
+                        in aliquam, ipsum ex debitis reiciendis accusantium.
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eveniet dolor sint vero
+                        praesentium placeat eius impedit mollitia necessitatibus facere reiciendis reprehenderit
+                        aspernatur, ipsam delectus ut commodi libero eaque architecto!
+                    </p>
+                </div>
+            </div>
 
+            <div class="row">
+                <div class="col-sm-7 menu__text">
+                    <h2 class="text-center">Second</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quos expedita molestias
+                        aspernatur aperiam, voluptatibus deleniti ipsum nam ut, voluptatum reprehenderit amet? Dolorum
+                        in aliquam, ipsum ex debitis reiciendis accusantium.
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eveniet dolor sint vero
+                        praesentium placeat eius impedit mollitia necessitatibus facere reiciendis reprehenderit
+                        aspernatur, ipsam delectus ut commodi libero eaque architecto!
+                    </p>
+                </div>
+                <div class="col-sm-5">
+                    <img src="images/menu_second.jpg" width="100%">
+                </div>
+            </div>
 
+            <div class="row">
+                <div class="col-sm-5">
+                    <img src="images/menu_third.jpg" width="100%">
+                </div>
+                <div class="col-sm-7 menu__text">
+                    <h2 class="text-center">Third</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quos expedita molestias
+                        aspernatur aperiam, voluptatibus deleniti ipsum nam ut, voluptatum reprehenderit amet? Dolorum
+                        in aliquam, ipsum ex debitis reiciendis accusantium.
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eveniet dolor sint vero
+                        praesentium placeat eius impedit mollitia necessitatibus facere reiciendis reprehenderit
+                        aspernatur, ipsam delectus ut commodi libero eaque architecto!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="about">
+        <video src="videos/bake.mp4" width="100%;" autoplay muted preload="auto" loop></video>
+        <div class="about__text">
+            <h1>About us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ullam iste ad consectetur modi quo saepe explicabo, illum accusamus facere corporis reprehenderit dolorem quasi! Assumenda adipisci sit recusandae doloremque eligendi.</p>
+        </div>
+    </section>
 
 
 
@@ -99,6 +159,7 @@
     <!-- Material Kit Core initialisations of plugins and Bootstrap Material Design Library -->
 
     <script src="js/material-kit.min.js"></script>
+    <script src="js/wow.min.js"></script>
 
 </body>
 
