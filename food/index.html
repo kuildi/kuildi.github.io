@@ -37,6 +37,14 @@
 
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About us</a>
+                    </li>
 
                     <li class="nav-item">
                         <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://twitter.com"
@@ -64,20 +72,21 @@
     </nav>
 
     <section id="welcome-screen">
-        <h1 class="welcome-screen__text">We are glade to meet you</h1>
+        <h1 class="welcome-screen__text wow fadeIn">We are glade to meet you</h1>
         <video src="videos/pasta.mp4" width="100%;" autoplay muted preload="auto" loop poster="img/slide6.jpg"></video>
     </section>
 
     <section id="menu">
         <h1 class="text-center">Menu</h1>
         <section>
-            <div class="row mx-0">
-                <div class="col-sm-6 px-0">
+            <div class="row mx-0 scrolly">
+                <div class="col-sm-5 px-0 wow fadeInLeft">
                     <img src="images/menu_first.jpg" width="100%">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-7 wow fadeInRight">
                     <h2 class="text-center">First</h2>
-                    <p class="card__body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quos expedita molestias
+                    <p class="card__body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quos
+                        expedita molestias
                         aspernatur aperiam, voluptatibus deleniti ipsum nam ut, voluptatum reprehenderit amet? Dolorum
                         in aliquam, ipsum ex debitis reiciendis accusantium.
                         <br>
@@ -88,10 +97,11 @@
                 </div>
             </div>
 
-            <div class="row mx-0">
-                <div class="col-sm-6">
+            <div class="row mx-0 scrolly">
+                <div class="col-sm-7 wow fadeInLeft">
                     <h2 class="text-center">Second</h2>
-                    <p class="card__body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quos expedita molestias
+                    <p class="card__body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quos
+                        expedita molestias
                         aspernatur aperiam, voluptatibus deleniti ipsum nam ut, voluptatum reprehenderit amet? Dolorum
                         in aliquam, ipsum ex debitis reiciendis accusantium.
                         <br>
@@ -100,18 +110,19 @@
                         aspernatur, ipsam delectus ut commodi libero eaque architecto!
                     </p>
                 </div>
-                <div class="col-sm-6 px-0">
+                <div class="col-sm-5 px-0 wow fadeInRight">
                     <img src="images/menu_second.jpg" width="100%">
                 </div>
             </div>
 
-            <div class="row mx-0">
-                <div class="col-sm-6 px-0">
+            <div class="row mx-0 scrolly">
+                <div class="col-sm-5 px-0 wow fadeInLeft">
                     <img src="images/menu_third.jpg" width="100%">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-7 wow fadeInRight">
                     <h2 class="text-center">Third</h2>
-                    <p class="card__body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quos expedita molestias
+                    <p class="card__body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quos
+                        expedita molestias
                         aspernatur aperiam, voluptatibus deleniti ipsum nam ut, voluptatum reprehenderit amet? Dolorum
                         in aliquam, ipsum ex debitis reiciendis accusantium.
                         <br>
@@ -128,7 +139,13 @@
         <video src="videos/bake.mp4" width="100%;" autoplay muted preload="auto" loop></video>
         <div class="about__text">
             <h1>About us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ullam iste ad consectetur modi quo saepe explicabo, illum accusamus facere corporis reprehenderit dolorem quasi! Assumenda adipisci sit recusandae doloremque eligendi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ullam iste ad consectetur modi quo
+                saepe explicabo, illum accusamus facere corporis reprehenderit dolorem quasi! Assumenda adipisci sit
+                recusandae doloremque eligendi.</p>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore consequatur quasi eveniet rem dolores
+                incidunt dolore, soluta vero adipisci enim inventore quam quisquam ea laborum recusandae debitis totam
+                repudiandae delectus.</p>
         </div>
     </section>
 
@@ -157,9 +174,18 @@
 
 
     <!-- Material Kit Core initialisations of plugins and Bootstrap Material Design Library -->
-
+    <script src="js/jquery.scrollify.js"></script>
     <script src="js/material-kit.min.js"></script>
     <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+
+        $(function () {
+            $.scrollify({
+                section: ".scrolly",
+            });
+        });
+    </script>
 
 </body>
 

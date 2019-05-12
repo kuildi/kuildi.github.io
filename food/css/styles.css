@@ -8,7 +8,6 @@ h1 {
 
 #about {
     position: relative;
-    padding: 20px 0;
 }
 
 #welcome-screen {
@@ -23,9 +22,18 @@ h1 {
 
 .about__text {
     position: absolute;
-    top: 40%;
-    right: 10%;
+    top: 0;
+    right: 0;
     width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px 20px;
 }
 
 .card {
@@ -35,12 +43,12 @@ h1 {
 }
 
 .card:hover {
-    -webkit-box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 
-                        0 3px 14px 2px rgba(0, 0, 0, 0.12), 
-                        0 5px 5px -3px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 
-                0 3px 14px 2px rgba(0, 0, 0, 0.12), 
-                0 5px 5px -3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14),
+        0 3px 14px 2px rgba(0, 0, 0, 0.12),
+        0 5px 5px -3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14),
+        0 3px 14px 2px rgba(0, 0, 0, 0.12),
+        0 5px 5px -3px rgba(0, 0, 0, 0.2);
 }
 
 .card__body {
@@ -54,6 +62,5 @@ h1 {
 
 #menu .row {
     margin-top: 15px;
-    margin-bottom: 15px;
     align-items: center;
 }
