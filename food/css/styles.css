@@ -6,6 +6,10 @@ h1 {
     margin: 0 !important;
 }
 
+section {
+    overflow: hidden;
+}
+
 #about {
     position: relative;
 }
@@ -24,7 +28,6 @@ h1 {
     position: absolute;
     top: 0;
     right: 0;
-    width: 40%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -61,11 +64,8 @@ h1 {
 }
 
 #menu .row {
-    margin-top: 15px;
     align-items: center;
 }
-
-.menu__item {}
 
 .menu__item::after {
     content: '';
@@ -89,4 +89,28 @@ h1 {
     height: 20px;
     background-size: cover;
     background-position: center;
+}
+
+.parallax-icons {
+    font-size: 40px;
+    color: bisque;
+    opacity: 0.5;
+}
+
+.parallax-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    padding: 0 10px;
+}
+
+.parallax-row:first-of-type {
+    top: 10%;
+}
+
+.parallax-row:last-of-type {
+    top: 100%;
 }

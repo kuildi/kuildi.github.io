@@ -85,21 +85,23 @@
         <h1 class="text-center">Menu</h1>
         <section>
             <div class="row mx-0 scrolly">
-                <div class="col-sm-5 px-0 wow fadeInLeft">
+                <div class="col-sm-6 px-0 wow fadeInLeft">
                     <img src="images/menu_first.jpg" width="100%">
                 </div>
-                <div class="col-sm-7 wow fadeInRight">
+
+                <div class="col-sm-6 wow fadeInRight">
                     <h2 class="text-center">First</h2>
-                    <div class="text-center">
+                    <div class="parallax-row parallax-icons">
                         <i class="fas fa-utensils"></i>
-                        <i class="fas fa-egg"></i>
-                        <i class="fas fa-cheese"></i>
-                        <i class="fas fa-bacon"></i>
-                        <i class="fas fa-pepper-hot"></i>
-                        <i class="fas fa-carrot"></i>
-                        <i class="fas fa-apple-alt"></i>
-                        <i class="fas fa-seedling"></i>
                         <i class="fas fa-coffee"></i>
+                        <i class="fas fa-cheese"></i>
+                        <i class="fas fa-apple-alt"></i>
+                    </div>
+
+                    <div class="parallax-row parallax-icons">
+                        <i class="fas fa-bacon"></i>
+                        <i class="fas fa-apple-alt"></i>
+                        <i class="fas fa-carrot"></i>
                     </div>
                     <p class="card__body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quos
                         expedita molestias
@@ -114,8 +116,20 @@
             </div>
 
             <div class="row mx-0 scrolly">
-                <div class="col-sm-7 wow fadeInLeft">
+                <div class="col-sm-6 wow fadeInLeft">
                     <h2 class="text-center">Second</h2>
+                    <div class="parallax-row parallax-icons">
+                        <i class="fas fa-bread-slice"></i>
+                        <i class="fas fa-ice-cream"></i>
+                        <i class="far fa-lemon"></i>
+                        <i class="fas fa-apple-alt"></i>
+                    </div>
+
+                    <div class="parallax-row parallax-icons">
+                        <i class="fas fa-fish"></i>
+                        <i class="fas fa-hotdog"></i>
+                        <i class="fas fa-carrot"></i>
+                    </div>
                     <p class="card__body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quos
                         expedita molestias
                         aspernatur aperiam, voluptatibus deleniti ipsum nam ut, voluptatum reprehenderit amet? Dolorum
@@ -126,17 +140,29 @@
                         aspernatur, ipsam delectus ut commodi libero eaque architecto!
                     </p>
                 </div>
-                <div class="col-sm-5 px-0 wow fadeInRight">
+                <div class="col-sm-6 px-0 wow fadeInRight">
                     <img src="images/menu_second.jpg" width="100%">
                 </div>
             </div>
 
             <div class="row mx-0 scrolly">
-                <div class="col-sm-5 px-0 wow fadeInLeft">
+                <div class="col-sm-6 px-0 wow fadeInLeft">
                     <img src="images/menu_third.jpg" width="100%">
                 </div>
-                <div class="col-sm-7 wow fadeInRight">
+                <div class="col-sm-6 wow fadeInRight">
                     <h2 class="text-center">Third</h2>
+                    <div class="parallax-row parallax-icons">
+                        <i class="fas fa-pepper-hot"></i>
+                        <i class="fas fa-seedling"></i>
+                        <i class="fas fa-bacon"></i>
+                        <i class="fas fa-pizza-slice"></i>
+                    </div>
+
+                    <div class="parallax-row parallax-icons">
+                        <i class="fas fa-carrot"></i>
+                        <i class="fas fa-apple-alt"></i>
+                        <i class="fas fa-lemon"></i>
+                    </div>
                     <p class="card__body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quos
                         expedita molestias
                         aspernatur aperiam, voluptatibus deleniti ipsum nam ut, voluptatum reprehenderit amet? Dolorum
@@ -153,15 +179,19 @@
 
     <section id="about">
         <video src="videos/bake.mp4" width="100%;" autoplay muted preload="auto" loop></video>
-        <div class="about__text">
-            <h1>About us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ullam iste ad consectetur modi quo
-                saepe explicabo, illum accusamus facere corporis reprehenderit dolorem quasi! Assumenda adipisci sit
-                recusandae doloremque eligendi.</p>
-            <br>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore consequatur quasi eveniet rem dolores
-                incidunt dolore, soluta vero adipisci enim inventore quam quisquam ea laborum recusandae debitis totam
-                repudiandae delectus.</p>
+        <div class="row">
+            <div class="about__text col-sm-12 col-md-6">
+                <h1>About us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ullam iste ad consectetur modi quo
+                    saepe explicabo, illum accusamus facere corporis reprehenderit dolorem quasi! Assumenda adipisci sit
+                    recusandae doloremque eligendi.</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore consequatur quasi eveniet rem
+                    dolores
+                    incidunt dolore, soluta vero adipisci enim inventore quam quisquam ea laborum recusandae debitis
+                    totam
+                    repudiandae delectus.</p>
+            </div>
         </div>
     </section>
 
@@ -186,7 +216,7 @@
     <!--	Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
     <script src="js/plugins/nouislider.min.js"></script>
 
-
+    <script src="js/parallax.js"></script>
 
 
     <!-- Material Kit Core initialisations of plugins and Bootstrap Material Design Library -->
