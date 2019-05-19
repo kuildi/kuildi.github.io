@@ -88,14 +88,6 @@ section {
     transform: scaleX(1) translateY(0px);
 }
 
-.pizza-icon {
-    background-image: url(/images/icons/pizza-slice-solid.svg);
-    width: 20px;
-    height: 20px;
-    background-size: cover;
-    background-position: center;
-}
-
 .parallax-icons {
     font-size: 40px;
     color: bisque;
@@ -120,6 +112,7 @@ section {
 }
 
 #shares {
+    padding: 15px 0;
     margin-top: -7px;
     background-color: rgb(255, 219, 88);
 }
@@ -205,4 +198,8 @@ section {
     width: 100%;
     height: 100%;
     border-radius: 10px;
+}
+
+#schedule i {
+    font-size: 85%;
 }
