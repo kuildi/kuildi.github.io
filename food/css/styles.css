@@ -217,7 +217,7 @@ section {
 #map {
     background-color: rgb(255, 219, 88);
     background-image: url(../images/building.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
