@@ -477,6 +477,13 @@ body {
 /* //Блок list */
 
 /* Блок icon-plus */
+.icon-plus__icon {
+    width: 40px;
+    height: 40px;
+    background: url(images/image-placeholder-primary.svg) no-repeat;
+    background-size: contain;
+}
+
 .theme_space_default .icon-plus__icon_indent-r_s {
     margin-right: var(--s-space);
 }
@@ -689,9 +696,13 @@ body {
 }
 
 .theme_color_project-default .input,
+.theme_color_project-default .history,
 .theme_color_project-brand .input,
+.theme_color_project-brand .history,
 .theme_color_project-inverse .input,
-.theme_color_project-warning .input {
+.theme_color_project-inverse .history,
+.theme_color_project-warning .input,
+.theme_color_project-warning .history {
     border: 3px solid var(--borderColor);
 }
 
@@ -808,3 +819,50 @@ body {
     height: 160px;
 }
 /* //Блок product*/
+
+/* Блок history*/
+.history {
+    max-width: 1024px;
+}
+
+.history__show {
+    cursor: pointer;
+}
+
+.history__details,
+.history__destination,
+.history__actions {
+    display: flex;
+    align-items: center;
+}
+.history__destination,
+.history__actions {
+    justify-content: space-between;
+}
+
+.history__hide {
+    display: none;
+}
+.history_show {
+    display: block;
+}
+/* //Блок history*/
+
+/* Блок cover*/
+.cover {
+    width: 272px;
+    min-height: 472px;
+}
+
+.cover .image {
+    height: 180px;
+    margin-bottom: var(--l-space);
+}
+/* //Блок cover*/
+
+/* Блок event*/
+.event {
+    width: 500px;
+    min-height: 400px;
+}
+/* //Блок event*/
