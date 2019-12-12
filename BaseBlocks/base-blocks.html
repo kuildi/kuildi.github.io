@@ -10,7 +10,7 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
 </head>
-<body class="theme_color_project-default theme_space_default theme_size_default">
+<body class="theme_color_project-default theme_space_default theme_gap_small theme_size_default">
     <section class="layout__container_align_center">
         <article class="payment form_border_all">
             <header class="payment__header form__item_space-v_l form__item_space-h_xl form__item_border_bottom">
@@ -19,12 +19,12 @@
     
             <section class="payment__content form__item_space-v_xxxl form__item_space-h_xl form__item_border_bottom">
                 <div class="form__item form__item_indent-b_xl form__item_distribute_between form__item_vertical-align_center">
-                    <label class="form__label_width_default">First label</label>
+                    <label class="form__label_width_default text text_view_primary">First label</label>
                     <div class="input input_size_l"></div>
                 </div>
                 
                 <div class="form__item form__item_indent-b_xl form__item_distribute_between form__item_vertical-align_center">
-                    <label class="form__label_width_default">Second label</label>
+                    <label class="form__label_width_default text text_view_primary">Second label</label>
                     <div class="input input_size_l"></div>
                 </div>
             </section>
@@ -180,15 +180,50 @@
 
         <br>
 
-        <article class="event">
-            <section class="event__content">
+        <article class="event card_view_default theme_color_project-inverse">
+            <section class="event__content card__content_vertical-align_center card__content_distribute_center card__content_space-a_xxxl">
+                <div class="event__preview">
+                    <div class="event__speaker avatar avatar_size_m"></div>
+                    <div class="brand-logo brand-logo_name_blue brand-logo_size_m"></div>
+                </div>
                 <div class="event__title">
-                    <div class="event__preview"></div>
-
+                    <p class="text text_view_primary text_size_xxl text_align_center">
+                        Event title
+                    </p>
+                </div>
+                <div class="event__description">
+                    <p class="text text_view_primary text_size_l text_align_center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
                 </div>
             </section>
-            <section class="event__footer"></section>
+            <section class="event__footer card__footer_vertical-align_center card__footer_distribute_center card__footer_space-a_xxl">
+                <a href="" class="text text_view_link text_size_xl text_align_cente">
+                    some link
+                </a>
+            </section>
         </article>
+
+        <br>
+
+        <header class="header">
+            <section class="header__content">
+                <div class="header__logo"></div>
+                <div class="onoffswitch">
+                    <input type="checkbox">
+                    <div class="onoffswitch__button"></div>
+                </div>
+            </section>
+        </header>
+
+        <br>
+
+        <footer class="footer">
+            <section class="footer__content">
+                <p class="text text_view_primary text_size_l">First words</p>
+                <p class="text text_view_primary text_size_l">Second words</p>
+            </section>
+        </footer>
     </section>
     <script src="script.js"></script>
 </body>

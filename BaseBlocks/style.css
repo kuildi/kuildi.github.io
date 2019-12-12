@@ -9,6 +9,10 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
+a {
+    text-decoration: none;
+}
+
 :root {
     --screen-m: 1024px;
 }
@@ -83,6 +87,16 @@ body {
     --xxxl-space: 45px;
     --xxxxl-space: 51px;
     --xxxxxl-space: 72px;
+}
+
+.theme_space_default.theme_gap_small {
+    --gap: var(--xl-space);
+}
+
+@media all and (max-width: var(--screen-m)) {
+    .theme_space_default.theme_gap_small {
+        --gap: var(--s-space);
+    }
 }
 
 .layout__container_align_center {
@@ -180,7 +194,19 @@ body {
 .theme_color_project-default .card_view_default,
 .theme_color_project-brand .card_view_default,
 .theme_color_project-inverse .card_view_default,
-.theme_color_project-warning .card_view_default {
+.theme_color_project-warning .card_view_default,
+.theme_color_project-default .payment,
+.theme_color_project-brand .payment,
+.theme_color_project-inverse .payment,
+.theme_color_project-warning .payment,
+.theme_color_project-default .header,
+.theme_color_project-brand .header,
+.theme_color_project-inverse .header,
+.theme_color_project-warning .header,
+.theme_color_project-default .footer,
+.theme_color_project-brand .footer,
+.theme_color_project-inverse .footer,
+.theme_color_project-warning .footer {
     background-color: var(--default-bg);
 }
 
@@ -623,14 +649,18 @@ body {
 /* //Блок text */
 
 /* Блок avatar */
-.theme_color_project-default .avatar_view_primary,
-.theme_color_project-brand .avatar_view_primary,
-.theme_color_project-inverse .avatar_view_primary,
-.theme_color_project-warning .avatar_view_primary,
+.theme_color_project-default .avatar,
+.theme_color_project-brand .avatar,
+.theme_color_project-inverse .avatar,
+.theme_color_project-warning .avatar,
 .theme_color_project-default .placeholder_view_primary,
 .theme_color_project-brand .placeholder_view_primary,
 .theme_color_project-inverse .placeholder_view_primary,
-.theme_color_project-warning .placeholder_view_primary {
+.theme_color_project-warning .placeholder_view_primary,
+.theme_color_project-default .header__logo,
+.theme_color_project-brand .header__logo,
+.theme_color_project-inverse .header__logo,
+.theme_color_project-warning .header__logo {
     background-color: var(--primary-color);
 }
 
@@ -775,7 +805,8 @@ body {
     max-width: 1024px;
     transition: all .4s;
 }
-.payment:hover {
+.payment:hover,
+.warning:hover {
     box-shadow: 0 6px 20px -5px rgba(0,0,0,.4), 
                 0 0 0 1px rgba(0,0,0,.06);
 }
@@ -785,6 +816,8 @@ body {
 .warning {
     min-height: 335px;
     max-width: 1024px;
+
+    transition: all .4s;
 }
 
 .warning__content,
@@ -823,6 +856,11 @@ body {
 /* Блок history*/
 .history {
     max-width: 1024px;
+    transition: all .4s;
+}
+
+.history:hover {
+    transform: scale(1.02);
 }
 
 .history__show {
@@ -865,4 +903,90 @@ body {
     width: 500px;
     min-height: 400px;
 }
+
+.event__preview {
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--xxl-space);
+}
+
+.event__title {
+    margin-bottom: var(--s-space);
+}
+
+.event__speaker {
+    margin-right: var(--xs-space);
+}
+
+.event__footer {
+    display: flex;
+}
 /* //Блок event*/
+
+/* Блоки header и footer*/
+.header,
+.footer {
+    width: 100%;
+
+    transition: all .4s;
+}
+.theme_space_default.theme_gap_small .header,
+.theme_space_default.theme_gap_small .footer {
+    padding: var(--xxxl-space) var(--gap);
+}
+
+.header__content,
+.footer__content {
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 179px;
+    height: 34px;
+}
+/* //Блоки header и footer*/
+
+/* Блок onoffswitch*/
+.onoffswitch {
+    position: relative;
+}
+
+.theme_color_project-default .onoffswitch,
+.theme_color_project-brand .onoffswitch,
+.theme_color_project-inverse .onoffswitch,
+.theme_color_project-warning .onoffswitch {
+    width: 97px;
+    height: 32px;
+    border: 2px solid var(--borderColor);
+}
+
+.theme_color_project-default .onoffswitch__button,
+.theme_color_project-brand .onoffswitch__button,
+.theme_color_project-inverse .onoffswitch__button,
+.theme_color_project-warning .onoffswitch__button {
+    width: 24px;
+    height: 24px;
+    background-color: var(--borderColor);
+}
+
+.onoffswitch input {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.onoffswitch__button {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+
+    transition: all .4s;
+}
+
+.onoffswitch input:checked ~ .onoffswitch__button {
+    left: 72%;
+}
+/* //Блок onoffswitch*/
